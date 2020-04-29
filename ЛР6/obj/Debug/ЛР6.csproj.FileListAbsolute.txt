@@ -1,0 +1,10 @@
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.csprojAssemblyReference.cache
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.Form1.resources
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.Properties.Resources.resources
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.csproj.GenerateResource.cache
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.csproj.CoreCompileInputs.cache
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\bin\Debug\ЛР6.exe.config
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\bin\Debug\ЛР6.exe
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\bin\Debug\ЛР6.pdb
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.exe
+E:\Лекции\ЛР\ИСП\ЛР6\ЛР6\obj\Debug\ЛР6.pdb
