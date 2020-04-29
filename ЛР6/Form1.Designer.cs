@@ -54,6 +54,7 @@
             this.NameL = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.StudyTP = new System.Windows.Forms.TabPage();
+            this.CollegePB = new System.Windows.Forms.ProgressBar();
             this.SecondUniversityPrice = new System.Windows.Forms.Label();
             this.UniversityPrice = new System.Windows.Forms.Label();
             this.CollegePrice = new System.Windows.Forms.Label();
@@ -87,6 +88,13 @@
             this.SalaryL = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.BankTP = new System.Windows.Forms.TabPage();
+            this.MontlyPayment = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.CreditL = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.BankSurname = new System.Windows.Forms.Label();
+            this.BankName = new System.Windows.Forms.Label();
             this.TakeTB = new System.Windows.Forms.TextBox();
             this.TakeBTN = new System.Windows.Forms.Button();
             this.PutTB = new System.Windows.Forms.TextBox();
@@ -118,14 +126,6 @@
             this.BalanceL = new System.Windows.Forms.Label();
             this.DateL = new System.Windows.Forms.Label();
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
-            this.CollegePB = new System.Windows.Forms.ProgressBar();
-            this.BankName = new System.Windows.Forms.Label();
-            this.BankSurname = new System.Windows.Forms.Label();
-            this.CreditL = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.MontlyPayment = new System.Windows.Forms.Label();
             this.SimulatorTC.SuspendLayout();
             this.StudentTP.SuspendLayout();
             this.StudyTP.SuspendLayout();
@@ -430,6 +430,16 @@
             this.StudyTP.TabIndex = 1;
             this.StudyTP.Text = "Учеба";
             this.StudyTP.UseVisualStyleBackColor = true;
+            // 
+            // CollegePB
+            // 
+            this.CollegePB.Location = new System.Drawing.Point(12, 37);
+            this.CollegePB.Maximum = 1095;
+            this.CollegePB.Name = "CollegePB";
+            this.CollegePB.Size = new System.Drawing.Size(534, 23);
+            this.CollegePB.Step = 1;
+            this.CollegePB.TabIndex = 31;
+            this.CollegePB.Value = 1094;
             // 
             // SecondUniversityPrice
             // 
@@ -804,6 +814,74 @@
             this.BankTP.Text = "Банк";
             this.BankTP.UseVisualStyleBackColor = true;
             // 
+            // MontlyPayment
+            // 
+            this.MontlyPayment.AutoSize = true;
+            this.MontlyPayment.Location = new System.Drawing.Point(376, 242);
+            this.MontlyPayment.Name = "MontlyPayment";
+            this.MontlyPayment.Size = new System.Drawing.Size(36, 13);
+            this.MontlyPayment.TabIndex = 20;
+            this.MontlyPayment.Text = "0 руб.";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(376, 226);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(122, 13);
+            this.label11.TabIndex = 19;
+            this.label11.Text = "Ежемесячный платеж:\r\n";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(3, 242);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(274, 52);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Условия кредитования:\r\nкредит выдается сроком на 1 год, под 20% годовых \r\nи выпла" +
+    "чивается равными долями ежемесячно.\r\nМаксимальная сумма кредита 5000р.";
+            // 
+            // CreditL
+            // 
+            this.CreditL.AutoSize = true;
+            this.CreditL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CreditL.Location = new System.Drawing.Point(112, 87);
+            this.CreditL.Name = "CreditL";
+            this.CreditL.Size = new System.Drawing.Size(60, 20);
+            this.CreditL.TabIndex = 17;
+            this.CreditL.Text = "{salary}";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.Location = new System.Drawing.Point(3, 87);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(103, 20);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "Мой кредит:";
+            // 
+            // BankSurname
+            // 
+            this.BankSurname.AutoSize = true;
+            this.BankSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BankSurname.Location = new System.Drawing.Point(8, 30);
+            this.BankSurname.Name = "BankSurname";
+            this.BankSurname.Size = new System.Drawing.Size(51, 20);
+            this.BankSurname.TabIndex = 15;
+            this.BankSurname.Text = "label9";
+            // 
+            // BankName
+            // 
+            this.BankName.AutoSize = true;
+            this.BankName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BankName.Location = new System.Drawing.Point(8, 10);
+            this.BankName.Name = "BankName";
+            this.BankName.Size = new System.Drawing.Size(51, 20);
+            this.BankName.TabIndex = 14;
+            this.BankName.Text = "label9";
+            // 
             // TakeTB
             // 
             this.TakeTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1131,84 +1209,6 @@
             // 
             this.GameTimer.Enabled = true;
             this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
-            // 
-            // CollegePB
-            // 
-            this.CollegePB.Location = new System.Drawing.Point(12, 37);
-            this.CollegePB.Maximum = 1095;
-            this.CollegePB.Name = "CollegePB";
-            this.CollegePB.Size = new System.Drawing.Size(534, 23);
-            this.CollegePB.Step = 1;
-            this.CollegePB.TabIndex = 31;
-            this.CollegePB.Value = 1094;
-            // 
-            // BankName
-            // 
-            this.BankName.AutoSize = true;
-            this.BankName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BankName.Location = new System.Drawing.Point(8, 10);
-            this.BankName.Name = "BankName";
-            this.BankName.Size = new System.Drawing.Size(51, 20);
-            this.BankName.TabIndex = 14;
-            this.BankName.Text = "label9";
-            // 
-            // BankSurname
-            // 
-            this.BankSurname.AutoSize = true;
-            this.BankSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BankSurname.Location = new System.Drawing.Point(8, 30);
-            this.BankSurname.Name = "BankSurname";
-            this.BankSurname.Size = new System.Drawing.Size(51, 20);
-            this.BankSurname.TabIndex = 15;
-            this.BankSurname.Text = "label9";
-            // 
-            // CreditL
-            // 
-            this.CreditL.AutoSize = true;
-            this.CreditL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CreditL.Location = new System.Drawing.Point(112, 87);
-            this.CreditL.Name = "CreditL";
-            this.CreditL.Size = new System.Drawing.Size(60, 20);
-            this.CreditL.TabIndex = 17;
-            this.CreditL.Text = "{salary}";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(3, 87);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(103, 20);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Мой кредит:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 242);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(274, 52);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Условия кредитования:\r\nкредит выдается сроком на 1 год, под 20% годовых \r\nи выпла" +
-    "чивается равными долями ежемесячно.\r\nМаксимальная сумма кредита 5000р.";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(376, 226);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(122, 13);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "Ежемесячный платеж:\r\n";
-            // 
-            // MontlyPayment
-            // 
-            this.MontlyPayment.AutoSize = true;
-            this.MontlyPayment.Location = new System.Drawing.Point(376, 242);
-            this.MontlyPayment.Name = "MontlyPayment";
-            this.MontlyPayment.Size = new System.Drawing.Size(36, 13);
-            this.MontlyPayment.TabIndex = 20;
-            this.MontlyPayment.Text = "0 руб.";
             // 
             // Form1
             // 
